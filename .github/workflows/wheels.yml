@@ -99,7 +99,7 @@ jobs:
           ) > .env_file
 
       - name: Build wheels
-        uses: home-assistant/wheels@2021.05.3
+        uses: home-assistant/wheels@2022.10.1
         with:
           tag: ${{ matrix.tag }}
           arch: ${{ matrix.arch }}
